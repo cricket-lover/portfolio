@@ -1,0 +1,11 @@
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project {
+  width: 16rem;
+  height: 20rem;
+  border: 0.1rem solid lightgray;
+  margin: 1rem;
+}

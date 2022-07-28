@@ -1,0 +1,9 @@
+.profile-image {
+  height: 16rem;
+  border-radius: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}

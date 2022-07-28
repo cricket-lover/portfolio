@@ -1,0 +1,30 @@
+.skills-container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.skills {
+  display: flex;
+  margin-top: 1.4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  border: 0.1rem solid var(--primary-color-light);
+  border-radius: 0.2rem;
+  width: fit-content;
+  padding: 0.1rem 0.7rem;
+  margin: 0.2rem 0.2rem;
+}
+
+.skill:hover {
+  background-color: var(--primary-color-light);
+  cursor: pointer;
+}
+
+.skills-label {
+  font-weight: bolder;
+  font-size: 1.7rem;
+  text-align: center;
+}

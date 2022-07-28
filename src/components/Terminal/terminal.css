@@ -1,0 +1,47 @@
+.terminal {
+  width: 50rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  color: white;
+}
+
+.menu-bar {
+  background-color: #8c8c8c;
+  display: flex;
+  align-items: center;
+  height: 1.6rem;
+  border-radius: 0.7rem 0.7rem 0 0;
+  padding-left: 0.5rem;
+}
+
+.title-bar {
+  background-color: rgb(55, 58, 59);
+  padding: 1.2rem 1rem 1rem 1rem;
+  font-family: monospace;
+  font-size: 1.2rem;
+  border-radius: 0 0 0.7rem 0.7rem;
+}
+
+.pwd {
+  color: #29bf83;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  line-height: 1.6;
+}
+
+.skill-item {
+  list-style: none;
+  padding-right: 2rem;
+}
+
+.circle {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-left: 0.6rem;
+}

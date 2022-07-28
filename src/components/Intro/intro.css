@@ -1,0 +1,21 @@
+.intro {
+  margin: 2rem 16rem;
+  line-height: 1.6;
+  display: flex;
+}
+
+.name {
+  color: var(--primary-color-dark);
+}
+
+.message {
+  padding: 0 0 0 2rem;
+}
+
+.salutation {
+  font-size: 1.8rem;
+}
+
+.quick-message {
+  color: #777;
+}

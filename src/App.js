@@ -1,5 +1,6 @@
-import "./App.css";
 import { Body, Header, Footer } from "./components";
+
+import "./App.css";
 
 function App() {
   return (

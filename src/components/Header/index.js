@@ -1,9 +1,21 @@
+import { Link } from "react-router-dom";
+
 import "./header.css";
 
 export const Header = function () {
   return (
     <header>
-      <div className="heading">MY PORTFOLIO</div>
+      <div className="heading">
+        <Link to="/about" className="links">
+          About Me
+        </Link>
+        <Link to="/skills" className="links">
+          Skills
+        </Link>
+        <Link to="/projects" className="links">
+          Projects
+        </Link>
+      </div>
     </header>
   );
 };

@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import { Intro, Projects, Skills, Terminal } from "..";
 
 import "./body.css";
@@ -32,10 +33,12 @@ const projects = [
 export const Body = function () {
   return (
     <div className="content">
-      <Intro />
-      <Skills skills={skills} />
-      <Projects projects={projects} />
-      <Terminal />
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route path="/skills" element={<Skills skills={skills} />} />
+        <Route path="/projects" element={<Projects projects={projects} />} />
+        <Route path="/about" element={<Terminal />} />
+      </Routes>
     </div>
   );
 };

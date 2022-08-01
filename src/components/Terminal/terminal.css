@@ -1,47 +1,46 @@
 .terminal {
-  width: 50rem;
-  height: 20rem;
-  margin: 0 auto;
-  margin-top: 3rem;
-  color: white;
+  width: var(--width-small);
+  margin: var(--space2) auto;
+  color: var(--white);
 }
 
 .menu-bar {
-  background-color: #8c8c8c;
+  background-color: var(--primary-color-light);
   display: flex;
   align-items: center;
-  height: 1.6rem;
-  border-radius: 0.7rem 0.7rem 0 0;
-  padding-left: 0.5rem;
+  height: var(--space1-6);
+  border-radius: var(--space-6) var(--space-6) 0 0;
+  padding-left: var(--space-4);
 }
 
 .title-bar {
-  background-color: rgb(55, 58, 59);
-  padding: 1.2rem 1rem 1rem 1rem;
-  font-family: monospace;
-  font-size: 1.2rem;
-  border-radius: 0 0 0.7rem 0.7rem;
+  height: var(--width-smallest);
+  background-color: var(--terminal-black);
+  padding: var(--space1-2) var(--space1) var(--space1) var(--space1);
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-small);
+  border-radius: 0 0 var(--space-6) var(--space-6);
 }
 
 .pwd {
-  color: #29bf83;
+  color: var(--terminal-green);
 }
 
-.skills {
+.terminal-skills {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  line-height: 1.6;
+  line-height: var(--line-height);
 }
 
 .skill-item {
   list-style: none;
-  padding-right: 2rem;
+  padding-right: var(--space2);
 }
 
 .circle {
-  width: 0.8rem;
-  height: 0.8rem;
+  width: var(--space-8);
+  height: var(--space-8);
   border-radius: 50%;
-  margin-left: 0.6rem;
+  margin-left: var(--space-6);
 }

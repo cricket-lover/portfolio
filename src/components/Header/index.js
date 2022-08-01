@@ -6,6 +6,9 @@ export const Header = function () {
   return (
     <header>
       <div className="heading">
+        <Link to="/" className="links">
+          Home
+        </Link>
         <Link to="/about" className="links">
           About Me
         </Link>

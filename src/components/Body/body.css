@@ -1,6 +1,6 @@
 .profile-image {
-  height: 16rem;
-  border-radius: 1rem;
+  height: var(--width-smallest);
+  border-radius: var(--space1);
 }
 
 .content {

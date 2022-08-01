@@ -1,21 +1,20 @@
 .skills-container {
-  margin: 0 auto;
+  margin: var(--space2) auto;
   width: 40%;
 }
 
 .skills {
   display: flex;
-  margin-top: 1.4rem;
+  margin-top: var(--space1-4);
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .skill {
-  border: 0.1rem solid var(--primary-color-light);
-  border-radius: 0.2rem;
+  border: var(--space-1) solid var(--primary-color-light);
+  border-radius: var(--space-2);
   width: fit-content;
-  padding: 0.1rem 0.7rem;
-  margin: 0.2rem 0.2rem;
+  padding: var(--space-1) var(--space-6);
+  margin: var(--space-2) var(--space-2);
 }
 
 .skill:hover {
@@ -24,7 +23,7 @@
 }
 
 .skills-label {
-  font-weight: bolder;
-  font-size: 1.7rem;
+  font-weight: var(--font-bold);
+  font-size: var(--font-medium);
   text-align: center;
 }

@@ -1,11 +1,43 @@
 .projects {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .project {
-  width: 16rem;
-  height: 20rem;
-  border: 0.1rem solid lightgray;
-  margin: 1rem;
+  width: var(--width-smallest);
+  height: var(--width-smaller);
+  border: var(--space-1) solid var(--primary-color-light);
+  margin: var(--space2) var(--space1);
+  border-radius: var(--space-4);
+  box-shadow: 0 0 var(--space-8) var(--primary-color-light);
+}
+
+.project-thumbnail {
+  background-color: var(--primary-color-light);
+  margin: var(--space-6);
+  font-size: var(--font-medium);
+  font-weight: var(--font-bold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 16/9;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tech {
+  margin: var(--space-6) var(--space-6) 0 0;
+  border-radius: var(--space-4);
+  border: var(--space-1) solid var(--primary-color-light);
+  padding: var(--space-2);
+  color: var(--primary-color-dark);
+}
+
+.project-details {
+  margin: var(--space-6) var(--space-6);
 }

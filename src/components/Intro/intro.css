@@ -1,6 +1,6 @@
 .intro {
-  margin: 2rem 16rem;
-  line-height: 1.6;
+  margin: var(--space2) var(--width-smallest);
+  line-height: var(--line-height);
   display: flex;
 }
 
@@ -9,13 +9,13 @@
 }
 
 .message {
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 var(--space2);
 }
 
 .salutation {
-  font-size: 1.8rem;
+  font-size: var(--font-large);
 }
 
 .quick-message {
-  color: #777;
+  color: var(--primary-color-dark);
 }

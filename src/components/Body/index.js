@@ -17,16 +17,32 @@ const skills = [
 
 const projects = [
   {
-    name: "Filmy Review",
-    tech: ["Javascript", "ReactJs", "NodeJs", "Redis"],
+    name: "Lets Cricket",
+    technologies: ["Javascript", "ReactJs"],
   },
   {
-    name: "Filmy Review",
-    tech: ["Javascript", "ReactJs", "NodeJs", "Redis"],
+    name: "Movies App",
+    technologies: ["Javascript", "ReactJs", "NodeJs", "Redis"],
   },
   {
-    name: "Filmy Review",
-    tech: ["Javascript", "ReactJs", "NodeJs", "Redis"],
+    name: "Technology App",
+    technologies: ["NodeJs", "Redis"],
+  },
+  {
+    name: "Todo",
+    technologies: ["Javascript", "ReactJs"],
+  },
+  {
+    name: "Movies App",
+    technologies: ["Javascript", "ReactJs", "NodeJs", "Redis"],
+  },
+  {
+    name: "Technology App",
+    technologies: ["NodeJs", "Redis"],
+  },
+  {
+    name: "Todo",
+    technologies: ["Javascript", "ReactJs"],
   },
 ];
 

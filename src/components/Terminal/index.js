@@ -28,7 +28,7 @@ export const Terminal = function () {
         <div className="command">
           <span className="pwd">{pwd}/skills $ </span>
           <span>ls</span>
-          <div className="skills">
+          <div className="terminal-skills">
             {[
               "Javascript",
               "Problem-Solving",

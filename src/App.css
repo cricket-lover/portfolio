@@ -1,6 +1,40 @@
 .container {
-  --primary-color-light: #ddd;
-  --primary-color-dark: #333;
-  max-width: 1440px;
+  /* Standardizing Colors */
+  --white: #fff;
+  --primary-color-light: #bbb;
+  --primary-color-dark: #444;
+  --black: #000;
+  --terminal-black: #333;
+  --terminal-green: #29bf83;
+
+  /* Standardizing Sizes */
+  --width-smallest: 16rem;
+  --width-smaller: 20rem;
+  --width-small: 48rem;
+  --container-width: 90rem;
+
+  /* Standardizing Spacing */
+  --space-1: 0.1rem;
+  --space-2: 0.2rem;
+  --space-4: 0.4rem;
+  --space-6: 0.6rem;
+  --space-8: 0.8rem;
+  --space1: 1rem;
+  --space1-2: 1.2rem;
+  --space1-4: 1.4rem;
+  --space1-6: 1.6rem;
+  --space1-8: 1.8rem;
+  --space2: 2rem;
+  --space4: 4rem;
+
+  /* Standardizing fonts */
+  --font-small: 1.2rem;
+  --font-medium: 1.4rem;
+  --font-large: 1.6rem;
+  --font-bold: bold;
+  --line-height: 1.6;
+  --font-family-secondary: monospace;
+
+  max-width: var(--container-width);
   margin: 0 auto;
 }

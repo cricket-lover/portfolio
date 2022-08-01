@@ -1,9 +1,10 @@
 .footer {
-  height: 4rem;
-  line-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--space4);
   background-color: var(--primary-color-light);
-  margin-top: 3rem;
   text-align: center;
-  font-size: 1.4rem;
-  font-weight: bold;
+  font-size: var(--font-medium);
+  font-weight: var(--font-bold);
 }

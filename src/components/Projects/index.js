@@ -6,7 +6,14 @@ export const Projects = function ({ projects }) {
       {projects.map((project, id) => {
         return (
           <div key={id} className="project">
-            {project.name}
+            <div className="project-thumbnail">{project.name}</div>
+            <div className="project-details">
+              <div className="tech-stack">
+                {project.technologies.map((technology) => {
+                  return <p className="tech">{technology}</p>;
+                })}
+              </div>
+            </div>
           </div>
         );
       })}

@@ -1,17 +1,16 @@
 .heading {
   background-color: var(--primary-color-light);
-  height: 4rem;
+  height: var(--space4);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 2rem;
-  font-weight: 600;
 }
 
 .links {
-  text-decoration: none;
-  font-size: 1.4rem;
+  font-size: var(--font-medium);
   text-transform: uppercase;
-  font-weight: bold;
-  color: #546fd1;
+  font-weight: var(--font-bold);
+  color: var(--primary-color-dark);
+  cursor: pointer;
+  text-decoration: underline;
 }

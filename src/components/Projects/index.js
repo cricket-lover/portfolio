@@ -1,6 +1,6 @@
 import "./projects.css";
 
-export const Projects = function ({ projects }) {
+export const Projects = function ({ projects = [] }) {
   return (
     <div className="projects">
       {projects.map((project, id) => {
@@ -9,8 +9,12 @@ export const Projects = function ({ projects }) {
             <div className="project-thumbnail">{project.name}</div>
             <div className="project-details">
               <div className="tech-stack">
-                {project.technologies.map((technology) => {
-                  return <p className="tech">{technology}</p>;
+                {project.technologies.map((technology, id) => {
+                  return (
+                    <p key={id} className="tech">
+                      {technology}
+                    </p>
+                  );
                 })}
               </div>
             </div>

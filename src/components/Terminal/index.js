@@ -4,7 +4,7 @@ const Circle = function ({ color }) {
   return <div className="circle" style={{ backgroundColor: color }}></div>;
 };
 
-export const Terminal = function () {
+export const Terminal = function ({ description, skills = [] }) {
   let pwd = `~/phani`;
 
   return (
@@ -18,27 +18,13 @@ export const Terminal = function () {
         <div className="command">
           <span className="pwd">{pwd} $ </span>
           <span>cat aboutphani</span>
-          <p>
-            Fuelled by passion for building solutions for large scale real life
-            problems using software. I have a deep desire to excel and
-            continuously improve in my work and life. Learn more about my
-            journey below
-          </p>
+          <p>{description}</p>
         </div>
         <div className="command">
           <span className="pwd">{pwd}/skills $ </span>
           <span>ls</span>
           <div className="terminal-skills">
-            {[
-              "Javascript",
-              "Problem-Solving",
-              "ReactJS",
-              "NodeJS",
-              "NodeJS",
-              "Problem-Solving",
-              "ReactJS",
-              "NodeJS",
-            ].map((skill, id) => {
+            {skills.map((skill, id) => {
               return (
                 <li key={id} className="skill-item">
                   {skill}

@@ -1,6 +1,6 @@
 import "./skills.css";
 
-export const Skills = function ({ skills }) {
+export const Skills = function ({ skills = [] }) {
   return (
     <div className="skills-container">
       <div className="skills-label">SKILLS</div>

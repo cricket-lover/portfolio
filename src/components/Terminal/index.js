@@ -5,7 +5,7 @@ const Circle = function ({ color }) {
 };
 
 export const Terminal = function ({ description, skills = [] }) {
-  let pwd = `~/phani`;
+  let pwd = `~/apurva`;
 
   return (
     <div className="terminal">
@@ -17,9 +17,14 @@ export const Terminal = function ({ description, skills = [] }) {
       <div className="title-bar">
         <div className="command">
           <span className="pwd">{pwd} $ </span>
-          <span>cat aboutphani</span>
+          <span>cat aboutapurva</span>
           <p>{description}</p>
         </div>
+        <div className="command">
+          <span className="pwd">{pwd} $ </span>
+          <span>cd skills</span>
+        </div>
+        <br />
         <div className="command">
           <span className="pwd">{pwd}/skills $ </span>
           <span>ls</span>
@@ -27,7 +32,7 @@ export const Terminal = function ({ description, skills = [] }) {
             {skills.map((skill, id) => {
               return (
                 <li key={id} className="skill-item">
-                  {skill}
+                  ・{skill}
                 </li>
               );
             })}

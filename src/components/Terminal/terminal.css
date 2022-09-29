@@ -14,7 +14,7 @@
 }
 
 .title-bar {
-  height: var(--width-smallest);
+  height: fit-content;
   background-color: var(--terminal-black);
   padding: var(--space1-2) var(--space1) var(--space1) var(--space1);
   font-family: var(--font-family-secondary);

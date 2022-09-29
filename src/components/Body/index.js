@@ -13,6 +13,7 @@ export const Body = function ({ userDetails }) {
             <Intro
               name={userDetails.name}
               description={userDetails.description}
+              avatar={userDetails.avatar}
             />
           }
         />

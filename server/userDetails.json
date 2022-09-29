@@ -1,0 +1,52 @@
+{
+  "name": "Apurva",
+  "description": "Fuelled by passion for building solutions for large scale real life problems using software. I have a deep desire to excel and continuously improve in my work and life. Learn more about my journey below",
+  "skills": [
+    "Javascript",
+    "ReactJS",
+    "NodeJS",
+    "Problem Solving",
+    "C Language",
+    "C++",
+    "Java",
+    "Data Structures",
+    "Algorithms",
+    "AWS services",
+    "NPM",
+    "Heroku",
+    "Github",
+    "Zira",
+    "Redis"
+  ],
+  "projects": [
+    {
+      "name": "Lets Cricket",
+      "technologies": ["Javascript", "ReactJs"]
+    },
+    {
+      "name": "Movies App",
+      "technologies": ["Javascript", "ReactJs", "NodeJs", "Redis"]
+    },
+    {
+      "name": "Technology App",
+      "technologies": ["NodeJs", "Redis"]
+    },
+    {
+      "name": "Todo",
+      "technologies": ["Javascript", "ReactJs"]
+    },
+    {
+      "name": "Movies App",
+      "technologies": ["Javascript", "ReactJs", "NodeJs", "Redis"]
+    },
+    {
+      "name": "Technology App",
+      "technologies": ["NodeJs", "Redis"]
+    },
+    {
+      "name": "Todo",
+      "technologies": ["Javascript", "ReactJs"]
+    }
+  ],
+  "avatar": "/images/profile-image3.jpeg"
+}

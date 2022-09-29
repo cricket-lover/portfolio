@@ -8,8 +8,16 @@ function App() {
 
   useEffect(() => {
     fetch("/userDetails")
-      .then((res) => res.json())
-      .then((userDetails) => setUserDetails(userDetails));
+      .then((res) => {
+        if (res.ok) {
+          return res.json();
+        }
+        throw new Error(
+          "Unable to fetch user details. Something went wrong. Please try again"
+        );
+      })
+      .then((userDetails) => setUserDetails(userDetails))
+      .catch((err) => console.error(err));
   }, []);
 
   return (

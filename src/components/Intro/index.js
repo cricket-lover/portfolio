@@ -1,11 +1,9 @@
-import profilePic from "../../profile-image.jpeg";
-
 import "./intro.css";
 
-export const Intro = function ({ name, description }) {
+export const Intro = function ({ name, description, avatar }) {
   return (
     <div className="intro">
-      <img src={profilePic} alt="profile" className="profile-image" />
+      <img src={avatar} alt="profile" className="profile-image" />
       <div className="message">
         <h2 className="salutation">
           Hi, I am <span className="name">{name}</span>

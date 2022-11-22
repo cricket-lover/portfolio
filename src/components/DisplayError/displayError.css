@@ -1,0 +1,6 @@
+.error-message {
+  font-size: var(--font-small);
+  color: var(--tomato);
+  text-align: center;
+  margin: var(--space2) auto;
+}

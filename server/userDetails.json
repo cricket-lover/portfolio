@@ -1,6 +1,7 @@
 {
-  "name": "Apurva",
+  "name": "Phani",
   "description": "Fuelled by passion for building solutions for large scale real life problems using software. I have a deep desire to excel and continuously improve in my work and life. Learn more about my journey below",
+  "experience": "I joined Thoughtworks Technologies Pvt Ltd. as an Intern in 2019 and was there for an year. Then I have joined Antstack(A startup company based on bangalore), worked there as a full time software engineer and worked here for 1 year. Then I have moved to Head Digital Works Pvt Ltd. My overall Experience is around 2.5 Years",
   "skills": [
     "Javascript",
     "ReactJS",
@@ -48,5 +49,5 @@
       "technologies": ["Javascript", "ReactJs"]
     }
   ],
-  "avatar": "/images/profile-image3.jpeg"
+  "avatar": "/images/profile-image.jpeg"
 }

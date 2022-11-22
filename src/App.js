@@ -1,10 +1,11 @@
-import { Body, Header, Footer } from "./components";
+import { Body, Header, Footer, DisplayError } from "./components";
 
 import "./App.css";
 import { useState, useEffect } from "react";
 
 function App() {
   const [userDetails, setUserDetails] = useState({});
+  const [error, setError] = useState("");
 
   useEffect(() => {
     fetch("/userDetails")
@@ -17,14 +18,18 @@ function App() {
         );
       })
       .then((userDetails) => setUserDetails(userDetails))
-      .catch((err) => console.error(err));
+      .catch((err) => setError(err.message));
   }, []);
 
   return (
     <div className="container">
       <Header />
-      <Body userDetails={userDetails} />
-      <Footer />
+      {error ? (
+        <DisplayError message={error} />
+      ) : (
+        <Body userDetails={userDetails} />
+      )}
+      <Footer name={userDetails.name} />
     </div>
   );
 }

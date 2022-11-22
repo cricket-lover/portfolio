@@ -4,8 +4,8 @@ const Circle = function ({ color }) {
   return <div className="circle" style={{ backgroundColor: color }}></div>;
 };
 
-export const Terminal = function ({ description, skills = [] }) {
-  let pwd = `~/apurva`;
+export const Terminal = function ({ name = "", experience, skills = [] }) {
+  let pwd = `~/${name.toLowerCase()}`;
 
   return (
     <div className="terminal">
@@ -17,8 +17,8 @@ export const Terminal = function ({ description, skills = [] }) {
       <div className="title-bar">
         <div className="command">
           <span className="pwd">{pwd} $ </span>
-          <span>cat aboutapurva</span>
-          <p>{description}</p>
+          <span>{`cat about${name.toLowerCase()}`}</span>
+          <p>{experience}</p>
         </div>
         <div className="command">
           <span className="pwd">{pwd} $ </span>

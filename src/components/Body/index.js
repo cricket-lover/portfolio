@@ -29,8 +29,9 @@ export const Body = function ({ userDetails }) {
           path="/about"
           element={
             <Terminal
+              name={userDetails.name}
               skills={userDetails.skills}
-              description={userDetails.description}
+              experience={userDetails.experience}
             />
           }
         />

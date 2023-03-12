@@ -1,17 +1,14 @@
 .container {
   /* Standardizing Colors */
   --white: #fff;
-  --primary-color-light: #bbb;
-  --primary-color-dark: #444;
+  --primary-color: #ededed;
+  --secondary-color: #324154;
   --black: #000;
   --terminal-black: #333;
   --terminal-green: #29bf83;
   --tomato: #e23e3e;
 
   /* Standardizing Sizes */
-  --width-smallest: 16rem;
-  --width-smaller: 20rem;
-  --width-small: 48rem;
   --container-width: 90rem;
 
   /* Standardizing Spacing */
@@ -27,6 +24,7 @@
   --space1-8: 1.8rem;
   --space2: 2rem;
   --space4: 4rem;
+  --space8: 8rem;
 
   /* Standardizing fonts */
   --font-small: 1.2rem;
@@ -38,4 +36,10 @@
 
   max-width: var(--container-width);
   margin: 0 auto;
+  
+}
+
+.header-body-wrapper{
+  /* min-height: calc(100% - footer-height - footer-margins) */
+  min-height: calc(100vh - 4rem - 2rem);
 }

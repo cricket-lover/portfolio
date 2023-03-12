@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: fit-content;
-  padding: var(--space1);
-  background-color: var(--primary-color-light);
+  height: var(--space4);
+  padding: var(--space1) 0;
+  background-color: var(--primary-color);
   text-align: center;
   font-size: var(--font-small);
   font-weight: var(--font-bold);

@@ -1,16 +1,16 @@
 .skills-container {
   margin: var(--space2) auto;
-  width: 40%;
+  max-width: 40rem;
 }
 
 .skills {
   display: flex;
-  margin-top: var(--space1-4);
+  margin: var(--space1) 0 var(--space1) 2rem;
   flex-wrap: wrap;
 }
 
 .skill {
-  border: var(--space-1) solid var(--primary-color-light);
+  border: var(--space-1) solid var(--primary-color);
   border-radius: var(--space-2);
   width: fit-content;
   padding: var(--space-1) var(--space-6);
@@ -18,7 +18,7 @@
 }
 
 .skill:hover {
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color);
   cursor: pointer;
 }
 

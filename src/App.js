@@ -1,7 +1,7 @@
+import { useState, useEffect } from "react";
 import { Body, Header, Footer, DisplayError } from "./components";
 
 import "./App.css";
-import { useState, useEffect } from "react";
 
 function App() {
   const [userDetails, setUserDetails] = useState({});
@@ -23,12 +23,14 @@ function App() {
 
   return (
     <div className="container">
-      <Header />
-      {error ? (
-        <DisplayError message={error} />
-      ) : (
-        <Body userDetails={userDetails} />
-      )}
+      <div className="header-body-wrapper">
+        <Header />
+        {error ? (
+          <DisplayError message={error} />
+        ) : (
+          <Body userDetails={userDetails} />
+        )}
+      </div>
       <Footer name={userDetails.name} />
     </div>
   );

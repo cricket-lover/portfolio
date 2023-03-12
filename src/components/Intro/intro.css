@@ -1,15 +1,22 @@
 .intro {
-  margin: var(--space2) var(--width-smallest);
+  margin: var(--space2);
   line-height: var(--line-height);
   display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  height: 16rem;
+  border-radius: var(--space1);
 }
 
 .name {
-  color: var(--primary-color-dark);
+  color: var(--secondary-color);
 }
 
 .message {
   padding: 0 0 0 var(--space2);
+  max-width: 32rem;
 }
 
 .salutation {
@@ -17,5 +24,15 @@
 }
 
 .quick-message {
-  color: var(--primary-color-dark);
+  color: var(--secondary-color);
+}
+
+@media (max-width: 640px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .message {
+    padding: 0;
+  }
 }

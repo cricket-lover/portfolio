@@ -1,11 +1,11 @@
 .terminal {
-  width: var(--width-small);
+  width: 40rem;
   margin: var(--space2) auto;
   color: var(--white);
 }
 
 .menu-bar {
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color);
   display: flex;
   align-items: center;
   height: var(--space1-6);
@@ -43,4 +43,10 @@
   height: var(--space-8);
   border-radius: 50%;
   margin-left: var(--space-6);
+}
+
+@media (max-width: 640px) {
+  .terminal {
+    width: 98%;
+  }
 }

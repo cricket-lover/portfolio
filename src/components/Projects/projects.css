@@ -5,16 +5,20 @@
 }
 
 .project {
-  width: var(--width-smallest);
-  height: var(--width-smaller);
-  border: var(--space-1) solid var(--primary-color-light);
+  width: 16rem;
+  height: 20rem;
+  border: var(--space-1) solid var(--primary-color);
   margin: var(--space2) var(--space1);
   border-radius: var(--space-4);
-  box-shadow: 0 0 var(--space-8) var(--primary-color-light);
+  box-shadow: 0 0 var(--space-2) var(--primary-color);
+}
+
+.project:hover {
+  box-shadow: -1px 1px var(--space-1) var(--secondary-color);
 }
 
 .project-thumbnail {
-  background-color: var(--primary-color-light);
+  background-color: var(--primary-color);
   margin: var(--space-6);
   font-size: var(--font-medium);
   font-weight: var(--font-bold);
@@ -33,9 +37,9 @@
 .tech {
   margin: var(--space-6) var(--space-6) 0 0;
   border-radius: var(--space-4);
-  border: var(--space-1) solid var(--primary-color-light);
+  border: var(--space-1) solid var(--primary-color);
   padding: var(--space-2);
-  color: var(--primary-color-dark);
+  color: var(--secondary-color);
 }
 
 .project-details {

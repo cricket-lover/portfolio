@@ -38,6 +38,11 @@ export const Terminal = function ({ name = "", experience, skills = [] }) {
             })}
           </div>
         </div>
+        <br />
+        <div className="command">
+          <span className="pwd">{pwd} $ </span>
+          <span className="blink">_</span>
+        </div>
       </div>
     </div>
   );

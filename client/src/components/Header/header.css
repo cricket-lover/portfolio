@@ -25,3 +25,14 @@
   box-shadow: 1px 1px 1px var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
+
+.blink {
+  font-weight: var(--font-bold);
+  animation: blink-animation 0.5s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

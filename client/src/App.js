@@ -23,14 +23,12 @@ function App() {
 
   return (
     <div className="container">
-      <div className="header-body-wrapper">
-        <Header />
-        {error ? (
-          <DisplayError message={error} />
-        ) : (
-          <Body userDetails={userDetails} />
-        )}
-      </div>
+      <Header />
+      {error ? (
+        <DisplayError message={error} />
+      ) : (
+        <Body userDetails={userDetails} />
+      )}
       <Footer name={userDetails.name} />
     </div>
   );

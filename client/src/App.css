@@ -34,12 +34,10 @@
   --line-height: 1.6;
   --font-family-secondary: monospace;
 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: var(--container-width);
   margin: 0 auto;
-  
-}
-
-.header-body-wrapper{
-  /* min-height: calc(100% - footer-height - footer-margins) */
-  min-height: calc(100vh - 4rem - 2rem);
 }
